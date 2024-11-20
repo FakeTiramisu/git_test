@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Images & Links</title>
+    </head>
+
+    <body>
+        <h1>Homepage</h1>
+        <!-- Link tag with href attribute -->
+        <!-- The target attribute is either set to _self or _blank which indicates whether link is opened in new tab or same tab-->
+        <!-- By default target="_self" -->
+        <!-- rel attribute describes how link is related to the webpage, it is established for security reasons -->
+        <!-- noopener: prevents for the new link to gain access to website it was opened with. noreferrer: prevents opened link from knowing which webpage has a link to it -->
+        <a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">About The Odin Project</a>
+
+        <!-- Relative link to the page on the same domain -->
+        <a href="./pages/about.html">About</a>
+        <image src="./images/charlesdeluvio-Mv9hjnEUHR4-unsplash.jpg" alt="Dog Image" height="410" width="310">
+        <h2>Image Formats</h2>
+        <p>JPG images can render many colours and gradients however are unable to generate transparent pixels</p>
+        <img src="./images/mochi.jpg" alt="mochi jpg format">
+        <p>GIF are the simplest way to present short animations. They are limited for color, so do not use them for photos. Can have transparency
+            but can't have sem-opaque colors.
+        </p>
+        <img src="./images/mochi.gif" alt="mochi gif format">
+        <p>PNG are great for anything that is not animated or photos. They can handle opacity and color palette. They are great for icons, logos, diagrams, etc.</p>
+        <img src="./images/mochi.png" alt="mochi png format">
+        <p>SVG is vector based image. It can easily scale up and down in dimensions without loss of quality. They have the same use cases as PNG and are great for responsive designs.
+           One caviat is if the image has a lot of text, it impacts the file size a lot.
+        </p>
+        <img src="./images/mochi.svg" alt="mochi svg format" width="75">
+    </body>
+</html>
